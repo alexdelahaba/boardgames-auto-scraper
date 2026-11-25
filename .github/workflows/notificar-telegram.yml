@@ -1,0 +1,44 @@
+name: Notificar ofertas nuevas por Telegram
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: telegram-notificaciones-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  notificar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener el repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Comprobar ofertas y notificar
+        run: node notificar-telegram.js
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Guardar el historial de notificaciones
+        if: always()
+        run: |
+          git add notificaciones-enviadas.json
+          if git diff --cached --quiet; then
+            echo "El historial no ha cambiado."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update Telegram notification history"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

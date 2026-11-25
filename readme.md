@@ -3,7 +3,7 @@ node .\comprobar-nuevos.js
 
 ## Avisos por Telegram
 
-El workflow de GitHub Actions comprueba las ofertas cada seis horas y también
+El workflow de GitHub Actions comprueba las ofertas cada 30 minutos y también
 se puede ejecutar manualmente desde la pestaña **Actions**. Solo avisa de
 productos que no aparecen en `juegos-disponibles.json`; los IDs ya notificados
 se guardan en `notificaciones-enviadas.json` para evitar repetir avisos.

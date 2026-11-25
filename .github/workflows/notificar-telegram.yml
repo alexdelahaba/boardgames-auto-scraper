@@ -2,7 +2,7 @@ name: Notificar ofertas nuevas por Telegram
 
 on:
   schedule:
-    - cron: '17,47 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
     inputs:
       test_telegram:

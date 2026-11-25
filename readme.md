@@ -17,3 +17,5 @@ Para configurarlo:
    secretos `TELEGRAM_BOT_TOKEN` y `TELEGRAM_CHAT_ID`.
 4. Comprueba que Actions tenga permiso para escribir en el repositorio. El
    workflow guarda en Git el historial de notificaciones después de ejecutarse.
+5. Para probar el envío sin esperar una oferta nueva, ejecuta el workflow
+   manualmente desde **Actions** y activa `test_telegram`.

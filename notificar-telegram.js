@@ -62,11 +62,14 @@ async function saveNotifiedKeys(notifiedKeys) {
   await fs.rename(temporaryPath, NOTIFIED_PATH);
 }
 
-async function sendTelegramMessage(product, token, chatId) {
+function formatProductMessage(product) {
   const discount = product.discountPercent
     ? ` (-${product.discountPercent}%)`
     : '';
-  const text = `${product.name}\nPrecio: ${product.priceEUR.toFixed(2)} €${discount}\n${product.url}`;
+  return `${product.name}\nPrecio: ${product.priceEUR.toFixed(2)} €${discount}\n${product.url}`;
+}
+
+async function sendTelegramMessage(text, token, chatId) {
   const response = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -93,6 +96,16 @@ async function main() {
     throw new Error('Faltan TELEGRAM_BOT_TOKEN o TELEGRAM_CHAT_ID.');
   }
 
+  if (process.env.TELEGRAM_TEST === 'true') {
+    await sendTelegramMessage(
+      'Mensaje de prueba: la conexion de Telegram funciona.',
+      token,
+      chatId,
+    );
+    console.log('Mensaje de prueba enviado a Telegram.');
+    return;
+  }
+
   const [savedProducts, notifiedKeysArray] = await Promise.all([
     readJsonArray(OUTPUT_PATH, 'El JSON de referencia'),
     readJsonArray(NOTIFIED_PATH, 'El historial de notificaciones'),
@@ -112,7 +125,7 @@ async function main() {
 
   for (const product of newProducts) {
     const key = getProductKey(product);
-    await sendTelegramMessage(product, token, chatId);
+    await sendTelegramMessage(formatProductMessage(product), token, chatId);
     notifiedKeys.add(key);
     await saveNotifiedKeys(notifiedKeys);
     console.log(`Notificado: ${product.name}`);
@@ -128,4 +141,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { getNewProducts, getProductKey };
+module.exports = { getNewProducts, getProductKey, main };

@@ -1,0 +1,810 @@
+[
+  {
+    "name": "Promo cartas de misión - Proyecto arrecife",
+    "url": "https://tienda.malditogames.com/1142-promo-cartas-de-mision-proyecto-arrecife.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/5/3/0/3/5303.jpg",
+    "priceEUR": 1.5,
+    "originalPriceEUR": 3,
+    "discountPercent": 50
+  },
+  {
+    "name": "Nebula",
+    "url": "https://tienda.malditogames.com/1118-nebula.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/5/1/3/7/5137.jpg",
+    "priceEUR": 17.5,
+    "originalPriceEUR": 35,
+    "discountPercent": 50
+  },
+  {
+    "name": "Proyecto arrecife",
+    "url": "https://tienda.malditogames.com/1096-proyecto-arrecife.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/5/0/1/7/5017.jpg",
+    "priceEUR": 17.5,
+    "originalPriceEUR": 50,
+    "discountPercent": 65
+  },
+  {
+    "name": "Reinos rodados relanzados",
+    "url": "https://tienda.malditogames.com/1095-reinos-rodados-relanzados.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/5/0/0/4/5004.jpg",
+    "priceEUR": 10.5,
+    "originalPriceEUR": 30,
+    "discountPercent": 65
+  },
+  {
+    "name": "Minos",
+    "url": "https://tienda.malditogames.com/1094-minos.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/4/9/8/7/4987.jpg",
+    "priceEUR": 21,
+    "originalPriceEUR": 60,
+    "discountPercent": 65
+  },
+  {
+    "name": "Pioneros de la aviación",
+    "url": "https://tienda.malditogames.com/1059-pioneros-de-la-aviacion.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/4/7/6/8/4768.jpg",
+    "priceEUR": 15.75,
+    "originalPriceEUR": 45,
+    "discountPercent": 65
+  },
+  {
+    "name": "Kickstarter Goodies - Terminus",
+    "url": "https://tienda.malditogames.com/1057-kickstarter-goodies-terminus.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/4/7/5/0/4750.jpg",
+    "priceEUR": 10,
+    "originalPriceEUR": 20,
+    "discountPercent": 50
+  },
+  {
+    "name": "Deluxe Resources - Terminus",
+    "url": "https://tienda.malditogames.com/1047-deluxe-resources-terminus.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/4/7/4/8/4748.jpg",
+    "priceEUR": 5,
+    "originalPriceEUR": 10,
+    "discountPercent": 50
+  },
+  {
+    "name": "Terminus",
+    "url": "https://tienda.malditogames.com/1031-terminus.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/4/4/0/3/4403.jpg",
+    "priceEUR": 24,
+    "originalPriceEUR": 60,
+    "discountPercent": 60
+  },
+  {
+    "name": "Itinerantes - La Gran Feria",
+    "url": "https://tienda.malditogames.com/1026-itinerantes-la-gran-feria.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/4/3/9/8/4398.jpg",
+    "priceEUR": 2,
+    "originalPriceEUR": 20,
+    "discountPercent": 90
+  },
+  {
+    "name": "La Gran Feria",
+    "url": "https://tienda.malditogames.com/1025-la-gran-feria.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/4/3/9/7/4397.jpg",
+    "priceEUR": 22.5,
+    "originalPriceEUR": 45,
+    "discountPercent": 50
+  },
+  {
+    "name": "Number Drop",
+    "url": "https://tienda.malditogames.com/1012-number-drop.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/4/3/3/5/4335.jpg",
+    "priceEUR": 6.9,
+    "originalPriceEUR": 23,
+    "discountPercent": 70
+  },
+  {
+    "name": "Rauha",
+    "url": "https://tienda.malditogames.com/996-rauha.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/4/3/0/7/4307.jpg",
+    "priceEUR": 14,
+    "originalPriceEUR": 40,
+    "discountPercent": 65
+  },
+  {
+    "name": "Isla Mística - Frutas Jugosas",
+    "url": "https://tienda.malditogames.com/987-isla-mistica-frutas-jugosas.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/4/2/8/5/4285.jpg",
+    "priceEUR": 1.5,
+    "originalPriceEUR": 15,
+    "discountPercent": 90
+  },
+  {
+    "name": "Set de Miniaturas - Platformer",
+    "url": "https://tienda.malditogames.com/954-set-de-miniaturas-platformer.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/4/0/8/0/4080.jpg",
+    "priceEUR": 12.5,
+    "originalPriceEUR": 25,
+    "discountPercent": 50
+  },
+  {
+    "name": "Platformer",
+    "url": "https://tienda.malditogames.com/953-platformer.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/4/0/4/3/4043.jpg",
+    "priceEUR": 8.75,
+    "originalPriceEUR": 35,
+    "discountPercent": 75
+  },
+  {
+    "name": "Autómata - Brazil: Imperial",
+    "url": "https://tienda.malditogames.com/946-automata-brazil-imperial.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/3/9/7/8/3978.jpg",
+    "priceEUR": 0.8,
+    "originalPriceEUR": 8,
+    "discountPercent": 90
+  },
+  {
+    "name": "Ágora - Hipócrates",
+    "url": "https://tienda.malditogames.com/941-agora-hipocrates.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/3/9/7/1/3971.jpg",
+    "priceEUR": 2.25,
+    "originalPriceEUR": 15,
+    "discountPercent": 85
+  },
+  {
+    "name": "Promo: Adversidades - Tindaya",
+    "url": "https://tienda.malditogames.com/939-promo-adversidades-tindaya.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/3/9/6/9/3969.jpg",
+    "priceEUR": 0.5,
+    "originalPriceEUR": 5,
+    "discountPercent": 90
+  },
+  {
+    "name": "Patti y la prueba de los dioses - Librojuego: Mi primera Aventura",
+    "url": "https://tienda.malditogames.com/921-patti-y-la-prueba-de-los-dioses-librojuego-mi-primera-aventura.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/9782492939105.jpg",
+    "priceEUR": 5.97,
+    "originalPriceEUR": 19.9,
+    "discountPercent": 70
+  },
+  {
+    "name": "Modo Solitario - Oricalco",
+    "url": "https://tienda.malditogames.com/920-modo-solitario-oricalco.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/3/8/0/5/3805.jpg",
+    "priceEUR": 0.6,
+    "originalPriceEUR": 6,
+    "discountPercent": 90
+  },
+  {
+    "name": "Carta Promo Pele - Los libros del tiempo",
+    "url": "https://tienda.malditogames.com/916-carta-promo-pele-los-libros-del-tiempo.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/3/7/8/4/3784.jpg",
+    "priceEUR": 0.2,
+    "originalPriceEUR": 2,
+    "discountPercent": 90
+  },
+  {
+    "name": "Delta - Edición Deluxe",
+    "url": "https://tienda.malditogames.com/898-delta-edicion-deluxe.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/3/6/2/0/3620.jpg",
+    "priceEUR": 77.5,
+    "originalPriceEUR": 155,
+    "discountPercent": 50
+  },
+  {
+    "name": "After Us",
+    "url": "https://tienda.malditogames.com/894-after-us.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/3/6/1/0/3610.jpg",
+    "priceEUR": 9,
+    "originalPriceEUR": 45,
+    "discountPercent": 80
+  },
+  {
+    "name": "Discordia",
+    "url": "https://tienda.malditogames.com/875-discordia.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/3/5/5/1/3551.jpg",
+    "priceEUR": 10,
+    "originalPriceEUR": 50,
+    "discountPercent": 80
+  },
+  {
+    "name": "Smitten",
+    "url": "https://tienda.malditogames.com/863-smitten.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/3/4/5/6/3456.jpg",
+    "priceEUR": 1.8,
+    "originalPriceEUR": 9,
+    "discountPercent": 80
+  },
+  {
+    "name": "Fantasías y Futuros - Tapestry",
+    "url": "https://tienda.malditogames.com/854-fantasias-y-futuros-tapestry.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/3/4/0/4/3404.jpg",
+    "priceEUR": 2.7,
+    "originalPriceEUR": 27,
+    "discountPercent": 90
+  },
+  {
+    "name": "Wakan Tanka - Golpe de fe",
+    "url": "https://tienda.malditogames.com/847-wakan-tanka-golpe-de-fe.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/3/2/9/3/3293.jpg",
+    "priceEUR": 0.3,
+    "originalPriceEUR": 2,
+    "discountPercent": 85
+  },
+  {
+    "name": "Moesteiro",
+    "url": "https://tienda.malditogames.com/807-moesteiro.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/3/1/3/4/3134.jpg",
+    "priceEUR": 10.5,
+    "originalPriceEUR": 35,
+    "discountPercent": 70
+  },
+  {
+    "name": "My Shelfie",
+    "url": "https://tienda.malditogames.com/794-my-shelfie.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/3/0/1/2/3012.jpg",
+    "priceEUR": 7,
+    "originalPriceEUR": 35,
+    "discountPercent": 80
+  },
+  {
+    "name": "Carta promo: Cthulhu - Golpe de fe",
+    "url": "https://tienda.malditogames.com/792-carta-promo-cthulhu-golpe-de-fe.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/3/0/0/7/3007.jpg",
+    "priceEUR": 0.3,
+    "originalPriceEUR": 2,
+    "discountPercent": 85
+  },
+  {
+    "name": "Kodama - Living Forest",
+    "url": "https://tienda.malditogames.com/790-kodama-living-forest.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/3/0/0/3/3003.jpg",
+    "priceEUR": 4.05,
+    "originalPriceEUR": 27,
+    "discountPercent": 85
+  },
+  {
+    "name": "Gladiadores - Rome & Roll",
+    "url": "https://tienda.malditogames.com/766-gladiadores-rome-roll.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/8/5/9/2859.jpg",
+    "priceEUR": 2,
+    "originalPriceEUR": 20,
+    "discountPercent": 90
+  },
+  {
+    "name": "Oricalco",
+    "url": "https://tienda.malditogames.com/763-oricalco.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/8/2/8/2828.jpg",
+    "priceEUR": 13.5,
+    "originalPriceEUR": 45,
+    "discountPercent": 70
+  },
+  {
+    "name": "Maravillas antiguas - Origins: Los Primeros Constructores",
+    "url": "https://tienda.malditogames.com/756-maravillas-antiguas-origins-los-primeros-constructores.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/7/8/9/2789.jpg",
+    "priceEUR": 1.8,
+    "originalPriceEUR": 18,
+    "discountPercent": 90
+  },
+  {
+    "name": "Mazmorras - Sleeping Gods",
+    "url": "https://tienda.malditogames.com/755-mazmorras-sleeping-gods.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/7/7/9/2779.jpg",
+    "priceEUR": 10,
+    "originalPriceEUR": 20,
+    "discountPercent": 50
+  },
+  {
+    "name": "La edad dorada - Tawantinsuyu: El Imperio Inca",
+    "url": "https://tienda.malditogames.com/753-la-edad-dorada-tawantinsuyu-el-imperio-inca.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/7/7/5/2775.jpg",
+    "priceEUR": 7.5,
+    "originalPriceEUR": 30,
+    "discountPercent": 75
+  },
+  {
+    "name": "CloudAge",
+    "url": "https://tienda.malditogames.com/746-cloudage.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/7/2/8/2728.jpg",
+    "priceEUR": 10,
+    "originalPriceEUR": 50,
+    "discountPercent": 80
+  },
+  {
+    "name": "Tindaya",
+    "url": "https://tienda.malditogames.com/732-tindaya.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/6/2/9/2629.jpg",
+    "priceEUR": 21,
+    "originalPriceEUR": 60,
+    "discountPercent": 65
+  },
+  {
+    "name": "Las Grandes Carreras - The Mother Road: Ruta 66",
+    "url": "https://tienda.malditogames.com/708-las-grandes-carreras-the-mother-road-ruta-66.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/5/3/7/2537.jpg",
+    "priceEUR": 1.05,
+    "originalPriceEUR": 3,
+    "discountPercent": 65
+  },
+  {
+    "name": "Pink Cadillac Expansion - The Mother Road: Ruta 66",
+    "url": "https://tienda.malditogames.com/707-pink-cadillac-expansion-the-mother-road-ruta-66.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/5/3/5/2535.jpg",
+    "priceEUR": 1.75,
+    "originalPriceEUR": 5,
+    "discountPercent": 65
+  },
+  {
+    "name": "The Mother Road: Ruta 66",
+    "url": "https://tienda.malditogames.com/700-the-mother-road-ruta-66.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/4/0/9/2409.jpg",
+    "priceEUR": 20,
+    "originalPriceEUR": 40,
+    "discountPercent": 50
+  },
+  {
+    "name": "Engranajes metálicos Deluxe - Corrosión",
+    "url": "https://tienda.malditogames.com/698-engranajes-metalicos-deluxe-corrosion.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/4/0/7/2407.jpg",
+    "priceEUR": 1.2,
+    "originalPriceEUR": 12,
+    "discountPercent": 90
+  },
+  {
+    "name": "Promo Libertalia - Reinos Rodados",
+    "url": "https://tienda.malditogames.com/694-promo-libertalia-reinos-rodados.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/3/9/2/2392.jpg",
+    "priceEUR": 0.5,
+    "originalPriceEUR": 5,
+    "discountPercent": 90
+  },
+  {
+    "name": "Promo Terra Mystica - Reinos Rodados",
+    "url": "https://tienda.malditogames.com/693-promo-terra-mystica-reinos-rodados.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/3/9/0/2390.jpg",
+    "priceEUR": 0.5,
+    "originalPriceEUR": 5,
+    "discountPercent": 90
+  },
+  {
+    "name": "Promo Reinos Rodados - Reinos Rodados",
+    "url": "https://tienda.malditogames.com/692-cartas-promo-reinos-rodados.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/3/8/9/2389.jpg",
+    "priceEUR": 0.5,
+    "originalPriceEUR": 5,
+    "discountPercent": 90
+  },
+  {
+    "name": "Pack promocional - El Foro de Trajano",
+    "url": "https://tienda.malditogames.com/686-pack-promocional-el-foro-de-trajano.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/3/7/4/2374.jpg",
+    "priceEUR": 1.5,
+    "originalPriceEUR": 3,
+    "discountPercent": 50
+  },
+  {
+    "name": "Tableros adicionales - Curious Cargo",
+    "url": "https://tienda.malditogames.com/683-tableros-adicionales-curious-cargo.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/3/6/9/2369.jpg",
+    "priceEUR": 0.5,
+    "originalPriceEUR": 5,
+    "discountPercent": 90
+  },
+  {
+    "name": "Material adicional - Conexión Viena - Detective",
+    "url": "https://tienda.malditogames.com/682-material-adicional-conexion-viena-detective.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/3/6/5/2365.jpg",
+    "priceEUR": 1,
+    "originalPriceEUR": 10,
+    "discountPercent": 90
+  },
+  {
+    "name": "Cartaventura: Tintagel",
+    "url": "https://tienda.malditogames.com/681-cartaventura-tintagel.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/3/6/4/2364.jpg",
+    "priceEUR": 0.6,
+    "originalPriceEUR": 3,
+    "discountPercent": 80
+  },
+  {
+    "name": "Promo Aventureros - Block and Key",
+    "url": "https://tienda.malditogames.com/679-promo-aventureros-block-and-key.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/3/6/0/2360.jpg",
+    "priceEUR": 0.3,
+    "originalPriceEUR": 3,
+    "discountPercent": 90
+  },
+  {
+    "name": "Bloc de recambio - Inserta moneda para jugar",
+    "url": "https://tienda.malditogames.com/675-bloc-de-recambio-inserta-moneda-para-jugar.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/3/3/8/2338.jpg",
+    "priceEUR": 2.5,
+    "originalPriceEUR": 5,
+    "discountPercent": 50
+  },
+  {
+    "name": "Corrosión",
+    "url": "https://tienda.malditogames.com/652-corrosion.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/2/2/1/2221.jpg",
+    "priceEUR": 8.6,
+    "originalPriceEUR": 43,
+    "discountPercent": 80
+  },
+  {
+    "name": "La reina de Floravalle - Librojuego: Mi primera Aventura",
+    "url": "https://tienda.malditogames.com/650-la-reina-de-floravalle-librojuego-mi-primera-aventura.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/9782956296355.jpg",
+    "priceEUR": 8.95,
+    "originalPriceEUR": 17.9,
+    "discountPercent": 50
+  },
+  {
+    "name": "Viticulture World + Promo",
+    "url": "https://tienda.malditogames.com/647-viticulture-world.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/1/9/7/2197.jpg",
+    "priceEUR": 14,
+    "originalPriceEUR": 70,
+    "discountPercent": 80
+  },
+  {
+    "name": "Pequeños Agentes - Detective",
+    "url": "https://tienda.malditogames.com/637-pequenos-agentes-detective.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/0/3/2/2032.jpg",
+    "priceEUR": 1.3,
+    "originalPriceEUR": 13,
+    "discountPercent": 90
+  },
+  {
+    "name": "Dom Pierre",
+    "url": "https://tienda.malditogames.com/635-dom-pierre.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/2/0/3/0/2030.jpg",
+    "priceEUR": 22.5,
+    "originalPriceEUR": 45,
+    "discountPercent": 50
+  },
+  {
+    "name": "La Isla de los Gatos: Explora y Dibuja",
+    "url": "https://tienda.malditogames.com/621-la-isla-de-los-gatos-explora-y-dibuja.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/8/6/6/1866.jpg",
+    "priceEUR": 15,
+    "originalPriceEUR": 30,
+    "discountPercent": 50
+  },
+  {
+    "name": "Paquete de Barcos - La Isla de los Gatos",
+    "url": "https://tienda.malditogames.com/619-paquete-de-barcos-la-isla-de-los-gatos.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/8/6/2/1862.jpg",
+    "priceEUR": 2.6,
+    "originalPriceEUR": 26,
+    "discountPercent": 90
+  },
+  {
+    "name": "Mininos y Bestias - La Isla de los Gatos",
+    "url": "https://tienda.malditogames.com/618-mininos-y-bestias-la-isla-de-los-gatos.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/8/6/0/1860.jpg",
+    "priceEUR": 3,
+    "originalPriceEUR": 30,
+    "discountPercent": 90
+  },
+  {
+    "name": "Más Allá - Riftforce",
+    "url": "https://tienda.malditogames.com/613-mas-alla-riftforce.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/8/4/6/1846.jpg",
+    "priceEUR": 1.5,
+    "originalPriceEUR": 15,
+    "discountPercent": 90
+  },
+  {
+    "name": "La edad de las leyendas y el último caballero - Tainted Grail",
+    "url": "https://tienda.malditogames.com/590-la-edad-de-las-leyendas-y-el-ultimo-caballero-tainted-grail.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/7/6/5/1765.jpg",
+    "priceEUR": 38.5,
+    "originalPriceEUR": 110,
+    "discountPercent": 65
+  },
+  {
+    "name": "Modo Solitario - Terra Mystica",
+    "url": "https://tienda.malditogames.com/569-modo-solitario-terra-mystica.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/5/8/2/1582.jpg",
+    "priceEUR": 2,
+    "originalPriceEUR": 20,
+    "discountPercent": 90
+  },
+  {
+    "name": "Comerciantes de Los Mares - Terra Mystica",
+    "url": "https://tienda.malditogames.com/568-comerciantes-de-los-mares-terra-mystica.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/5/6/3/1563.jpg",
+    "priceEUR": 3.5,
+    "originalPriceEUR": 35,
+    "discountPercent": 90
+  },
+  {
+    "name": "Tapete de Neopreno (Doble Cara) - Wingspan",
+    "url": "https://tienda.malditogames.com/557-tapete-de-neopreno-wingspan.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/4/9/3/1493.jpg",
+    "priceEUR": 5.23,
+    "originalPriceEUR": 14.95,
+    "discountPercent": 65
+  },
+  {
+    "name": "Codex Aeternum (Azul) - Machina Arcana (Inglés)",
+    "url": "https://tienda.malditogames.com/545-codex-aeternum-azul-machina-arcana-ingles.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/4/5/4/1454.jpg",
+    "priceEUR": 16,
+    "originalPriceEUR": 32,
+    "discountPercent": 50
+  },
+  {
+    "name": "Codex Arcanum (Negro) - Machina Arcana (Inglés)",
+    "url": "https://tienda.malditogames.com/544-codex-arcanum-negro-machina-arcana-ingles.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/4/5/3/1453.jpg",
+    "priceEUR": 16,
+    "originalPriceEUR": 32,
+    "discountPercent": 50
+  },
+  {
+    "name": "Garden Nation (ES/EN/PT)",
+    "url": "https://tienda.malditogames.com/535-garden-nation.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/3/6/7/1367.jpg",
+    "priceEUR": 10,
+    "originalPriceEUR": 50,
+    "discountPercent": 80
+  },
+  {
+    "name": "La Era de Seth - Tekhenu",
+    "url": "https://tienda.malditogames.com/529-la-era-de-seth-tekhenu.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/3/5/8/1358.jpg",
+    "priceEUR": 3,
+    "originalPriceEUR": 30,
+    "discountPercent": 90
+  },
+  {
+    "name": "Origins: Los Primeros Constructores",
+    "url": "https://tienda.malditogames.com/517-origins-los-primeros-constructores.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/3/1/1/1311.jpg",
+    "priceEUR": 20,
+    "originalPriceEUR": 50,
+    "discountPercent": 60
+  },
+  {
+    "name": "Cataclismo - Golpe de fe",
+    "url": "https://tienda.malditogames.com/516-cataclismo-golpe-de-fe.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/3/1/0/1310.jpg",
+    "priceEUR": 3,
+    "originalPriceEUR": 20,
+    "discountPercent": 85
+  },
+  {
+    "name": "La Estrella - París",
+    "url": "https://tienda.malditogames.com/507-la-estrella-paris.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/2/8/4/1284.jpg",
+    "priceEUR": 1.5,
+    "originalPriceEUR": 15,
+    "discountPercent": 90
+  },
+  {
+    "name": "Monki",
+    "url": "https://tienda.malditogames.com/505-monki.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/2/8/2/1282.jpg",
+    "priceEUR": 11,
+    "originalPriceEUR": 22,
+    "discountPercent": 50
+  },
+  {
+    "name": "Sacred Bull - Kemet: Blood and Sand (Inglés)",
+    "url": "https://tienda.malditogames.com/482-sacred-bull-kemet-blood-and-sand-ingles.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/2/1/4/1214.jpg",
+    "priceEUR": 1,
+    "originalPriceEUR": 10,
+    "discountPercent": 90
+  },
+  {
+    "name": "Sand Worm - Kemet: Blood and Sand (Inglés)",
+    "url": "https://tienda.malditogames.com/481-sand-worm-kemet-blood-and-sand-ingles.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/2/1/5/1215.jpg",
+    "priceEUR": 1,
+    "originalPriceEUR": 10,
+    "discountPercent": 90
+  },
+  {
+    "name": "Herrlof",
+    "url": "https://tienda.malditogames.com/473-herrlof.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/2/0/4/1204.jpg",
+    "priceEUR": 4.2,
+    "originalPriceEUR": 12,
+    "discountPercent": 65
+  },
+  {
+    "name": "Secretos y Veladas - Entre Dos Castillos del Rey Loco Ludwig",
+    "url": "https://tienda.malditogames.com/468-secretos-y-veladas-entre-dos-castillos-del-rey-loco-ludwig.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/1/8/0/1180.jpg",
+    "priceEUR": 2,
+    "originalPriceEUR": 20,
+    "discountPercent": 90
+  },
+  {
+    "name": "Hordas Bárbaras - Colonos del Imperio: Imperios del Norte",
+    "url": "https://tienda.malditogames.com/452-hordas-barbaras-colonos-del-imperio-imperios-del-norte.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/1/3/4/1134.jpg",
+    "priceEUR": 3.3,
+    "originalPriceEUR": 22,
+    "discountPercent": 85
+  },
+  {
+    "name": "Gorinto - Pack Expansión para 5 jugadores + Dragón (ES/PT)",
+    "url": "https://tienda.malditogames.com/450-gorinto-pack-expansion-para-5-jugadores-dragon-espt.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/1/3/2/1132.jpg",
+    "priceEUR": 1,
+    "originalPriceEUR": 10,
+    "discountPercent": 90
+  },
+  {
+    "name": "Teotihuacán: Era de la Expansión",
+    "url": "https://tienda.malditogames.com/437-teotihuacan-era-de-la-expansion.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/1/1/2/1112.jpg",
+    "priceEUR": 12,
+    "originalPriceEUR": 30,
+    "discountPercent": 60
+  },
+  {
+    "name": "Tortuga 2199: La Bahía de los naufragios",
+    "url": "https://tienda.malditogames.com/411-tortuga-2199-la-bahia-de-los-naufragios.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/0/7/8/1078.jpg",
+    "priceEUR": 5.25,
+    "originalPriceEUR": 15,
+    "discountPercent": 65
+  },
+  {
+    "name": "Tortuga 2199",
+    "url": "https://tienda.malditogames.com/410-tortuga-2199.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/1/0/7/7/1077.jpg",
+    "priceEUR": 25,
+    "originalPriceEUR": 50,
+    "discountPercent": 50
+  },
+  {
+    "name": "Paracaidistas en tu bolsillo - D-Day Dice",
+    "url": "https://tienda.malditogames.com/360-paracaidistas-en-tu-bolsillo-d-day-dice.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/9/9/3/993.jpg",
+    "priceEUR": 25,
+    "originalPriceEUR": 50,
+    "discountPercent": 50
+  },
+  {
+    "name": "Jefe Supremo - D-Day Dice",
+    "url": "https://tienda.malditogames.com/357-jefe-supremo-d-day-dice.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/9/9/0/990.jpg",
+    "priceEUR": 3,
+    "originalPriceEUR": 30,
+    "discountPercent": 90
+  },
+  {
+    "name": "Dios con Nosotros - D-Day Dice",
+    "url": "https://tienda.malditogames.com/356-dios-con-nosotros-d-day-dice.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/9/8/9/989.jpg",
+    "priceEUR": 1.5,
+    "originalPriceEUR": 15,
+    "discountPercent": 90
+  },
+  {
+    "name": "Dentro del Bunker - D-Day Dice",
+    "url": "https://tienda.malditogames.com/354-dentro-del-bunker-d-day-dice.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/9/8/7/987.jpg",
+    "priceEUR": 1,
+    "originalPriceEUR": 10,
+    "discountPercent": 90
+  },
+  {
+    "name": "Camino al Infierno - D-Day Dice",
+    "url": "https://tienda.malditogames.com/353-camino-al-infierno-d-day-dice.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/9/8/6/986.jpg",
+    "priceEUR": 3,
+    "originalPriceEUR": 30,
+    "discountPercent": 90
+  },
+  {
+    "name": "Tawantinsuyu: El Imperio Inca",
+    "url": "https://tienda.malditogames.com/339-tawantinsuyu-el-imperio-inca.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/9/6/8/968.jpg",
+    "priceEUR": 16.5,
+    "originalPriceEUR": 55,
+    "discountPercent": 70
+  },
+  {
+    "name": "Academia - Monolith Arena",
+    "url": "https://tienda.malditogames.com/334-academia-monolith-arena.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/9/6/3/963.jpg",
+    "priceEUR": 1.2,
+    "originalPriceEUR": 12,
+    "discountPercent": 90
+  },
+  {
+    "name": "Estandartes Romanos - Colonos del Imperio: Imperios del Norte",
+    "url": "https://tienda.malditogames.com/307-estandartes-romanos-colonos-del-imperio-imperios-del-norte.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/9/2/3/923.jpg",
+    "priceEUR": 2.2,
+    "originalPriceEUR": 22,
+    "discountPercent": 90
+  },
+  {
+    "name": "Islas Japonesas - Colonos del Imperio: Imperios del Norte",
+    "url": "https://tienda.malditogames.com/305-islas-japonesas-colonos-del-imperio-imperios-del-norte.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/9/2/2/922.jpg",
+    "priceEUR": 7.7,
+    "originalPriceEUR": 22,
+    "discountPercent": 65
+  },
+  {
+    "name": "Sigue la pista - Detective",
+    "url": "https://tienda.malditogames.com/295-sigue-la-pista-detective.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/8/7/3/873.jpg",
+    "priceEUR": 1.3,
+    "originalPriceEUR": 13,
+    "discountPercent": 90
+  },
+  {
+    "name": "Bosk: Ardillas Deluxe",
+    "url": "https://tienda.malditogames.com/288-bosk-ardillas-deluxe.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/8/2/6/826.jpg",
+    "priceEUR": 1,
+    "originalPriceEUR": 5,
+    "discountPercent": 80
+  },
+  {
+    "name": "Teotihuacán: Sombras del Xitle",
+    "url": "https://tienda.malditogames.com/272-teotihuacan-sombras-del-xitle.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/7/5/5/755.jpg",
+    "priceEUR": 1.5,
+    "originalPriceEUR": 15,
+    "discountPercent": 90
+  },
+  {
+    "name": "Colonos del Imperio: Imperios del Norte",
+    "url": "https://tienda.malditogames.com/226-colonos-del-imperio-imperios-del-norte.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/6/6/6/666.jpg",
+    "priceEUR": 17.5,
+    "originalPriceEUR": 50,
+    "discountPercent": 65
+  },
+  {
+    "name": "Rome & Roll",
+    "url": "https://tienda.malditogames.com/213-rome-roll.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/9/5/2/952.jpg",
+    "priceEUR": 20,
+    "originalPriceEUR": 40,
+    "discountPercent": 50
+  },
+  {
+    "name": "Teotihuacán: Preclásico Tardío",
+    "url": "https://tienda.malditogames.com/211-teotihuacan-preclasico-tardio.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/6/4/5/645.jpg",
+    "priceEUR": 10,
+    "originalPriceEUR": 25,
+    "discountPercent": 60
+  },
+  {
+    "name": "Detective: Crímenes en L.A.",
+    "url": "https://tienda.malditogames.com/189-crimenes-en-la.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/6/1/3/613.jpg",
+    "priceEUR": 2.5,
+    "originalPriceEUR": 25,
+    "discountPercent": 90
+  },
+  {
+    "name": "Tapete de neopreno 140x80 cm - LA GRAN GUERRA",
+    "url": "https://tienda.malditogames.com/160-tapete-de-neopreno-140x80-cm-wwii-la-gran-guerra.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/4/9/7/497.jpg",
+    "priceEUR": 20,
+    "originalPriceEUR": 40,
+    "discountPercent": 50
+  },
+  {
+    "name": "Tapete de neopreno 140x80 cm - WWII AMERICANO",
+    "url": "https://tienda.malditogames.com/156-tapete-de-neopreno-140x80-cm-wwii-americano.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/4/8/9/489.jpg",
+    "priceEUR": 20,
+    "originalPriceEUR": 40,
+    "discountPercent": 50
+  },
+  {
+    "name": "Tapete de neopreno 140x80 cm - WWII ALEMÁN",
+    "url": "https://tienda.malditogames.com/154-tapete-de-neopreno-140x80-cm-wwii-aleman.html",
+    "image": "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/maldito/4/8/7/487.jpg",
+    "priceEUR": 20,
+    "originalPriceEUR": 40,
+    "discountPercent": 50
+  }
+]

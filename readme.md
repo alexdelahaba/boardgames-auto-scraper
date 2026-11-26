@@ -38,3 +38,7 @@ habilitarla:
 
 La página no guarda el token. El resultado se publica en la página, que es
 pública. Telegram y su comprobación programada siguen funcionando en paralelo.
+Los IDs de las novedades mostradas se recuerdan en el almacenamiento local del
+navegador, por lo que las siguientes consultas en ese mismo navegador no las
+repiten. El historial no se comparte entre dispositivos y se borra al eliminar
+los datos del sitio; es independiente del JSON de referencia y de Telegram.

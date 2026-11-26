@@ -5,6 +5,7 @@ const WORKFLOW = 'consultar-ofertas-pages.yml';
 const API_ROOT = `https://api.github.com/repos/${OWNER}/${REPOSITORY}`;
 const RUN_TITLE_PREFIX = 'Consulta ';
 const RUN_TIMEOUT_MS = 5 * 60 * 1000;
+const SEEN_PRODUCTS_STORAGE_KEY = 'maldito-games-seen-products-v1';
 
 const form = document.querySelector('#check-form');
 const tokenInput = document.querySelector('#github-token');
@@ -65,6 +66,72 @@ async function githubRequest(url, token, options) {
 
 function wait(milliseconds) {
   return new Promise((resolve) => setTimeout(resolve, milliseconds));
+}
+
+function getProductKey(product) {
+  if (!product || typeof product.url !== 'string') {
+    throw new Error('La respuesta contiene un producto sin URL válida.');
+  }
+
+  const url = new URL(product.url);
+  const productId = url.pathname.match(/^\/(\d+)-/);
+  return productId ? productId[1] : url.pathname.toLowerCase().replace(/\/+$/, '');
+}
+
+function readSeenProductKeys() {
+  let contents;
+  try {
+    contents = localStorage.getItem(SEEN_PRODUCTS_STORAGE_KEY);
+  } catch (error) {
+    throw new Error(`No se pudo leer el historial local: ${error.message}`);
+  }
+
+  if (contents === null) {
+    return new Set();
+  }
+
+  let keys;
+  try {
+    keys = JSON.parse(contents);
+  } catch (error) {
+    if (error instanceof SyntaxError) {
+      throw new Error(`El historial local no es válido: ${error.message}`);
+    }
+
+    throw error;
+  }
+
+  if (!Array.isArray(keys) || keys.some((key) => typeof key !== 'string')) {
+    throw new Error('El historial local debe contener una lista de IDs.');
+  }
+
+  return new Set(keys);
+}
+
+function filterUnseenProducts(products, seenKeys) {
+  const updatedSeenKeys = new Set(seenKeys);
+  const unseenProducts = [];
+
+  for (const product of products) {
+    const key = getProductKey(product);
+    if (!updatedSeenKeys.has(key)) {
+      unseenProducts.push(product);
+      updatedSeenKeys.add(key);
+    }
+  }
+
+  return { products: unseenProducts, seenKeys: updatedSeenKeys };
+}
+
+function saveSeenProductKeys(seenKeys) {
+  try {
+    localStorage.setItem(
+      SEEN_PRODUCTS_STORAGE_KEY,
+      JSON.stringify([...seenKeys].sort()),
+    );
+  } catch (error) {
+    throw new Error(`No se pudo guardar el historial local: ${error.message}`);
+  }
 }
 
 async function dispatchCheck(token, requestId) {
@@ -142,8 +209,8 @@ function renderResults(result) {
   productsList.replaceChildren();
   const checkedAt = new Date(result.checkedAt).toLocaleString('es-ES');
   summary.textContent = result.products.length === 0
-    ? `No hay novedades respecto al JSON de referencia. Comprobado: ${checkedAt}.`
-    : `${result.products.length} novedad(es) disponible(s). Comprobado: ${checkedAt}.`;
+    ? `No hay novedades nuevas para este navegador. Comprobado: ${checkedAt}.`
+    : `${result.products.length} novedad(es) nueva(s). Comprobado: ${checkedAt}.`;
 
   for (const product of result.products) {
     const item = document.createElement('li');
@@ -209,7 +276,11 @@ form.addEventListener('submit', async (event) => {
     await dispatchCheck(token, requestId);
     await waitForCheck(token, requestId);
     const result = await fetchResult(requestId);
-    renderResults(result);
+    const unseen = filterUnseenProducts(result.products, readSeenProductKeys());
+    renderResults({ ...result, products: unseen.products });
+    if (unseen.products.length > 0) {
+      saveSeenProductKeys(unseen.seenKeys);
+    }
     setStatus('Consulta completada.');
   } catch (error) {
     setStatus(error.message);

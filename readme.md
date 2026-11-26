@@ -4,9 +4,11 @@ node .\comprobar-nuevos.js
 ## Avisos por Telegram
 
 El workflow de GitHub Actions comprueba las ofertas cada 30 minutos y también
-se puede ejecutar manualmente desde la pestaña **Actions**. Solo avisa de
-productos que no aparecen en `juegos-disponibles.json`; los IDs ya notificados
-se guardan en `notificaciones-enviadas.json` para evitar repetir avisos.
+se puede ejecutar manualmente desde la pestaña **Actions**. Envía un mensaje
+por Telegram en cada ejecución: si encuentra juegos nuevos, indica cuáles; si
+no, confirma que no se encontraron novedades. Los IDs de los juegos nuevos ya
+notificados se guardan en `notificaciones-enviadas.json` para evitar repetir
+avisos sobre ellos.
 
 Para configurarlo:
 
@@ -19,3 +21,20 @@ Para configurarlo:
    workflow guarda en Git el historial de notificaciones después de ejecutarse.
 5. Para probar el envío sin esperar una oferta nueva, ejecuta el workflow
    manualmente desde **Actions** y activa `test_telegram`.
+
+## Consulta manual desde GitHub Pages
+
+La página pública permite lanzar una consulta desde otro dispositivo. Para
+habilitarla:
+
+1. En **Settings > Pages**, selecciona **GitHub Actions** como fuente de
+   publicación y configura la visibilidad como pública. El repositorio es
+   privado; GitHub Free requiere que el repositorio sea público para usar
+   Pages.
+2. Crea un Fine-grained Personal Access Token limitado a este repositorio con
+   permiso **Actions: Read and write**.
+3. Abre `https://alexdelahaba.github.io/boardgames-auto-scraper/`, introduce el
+   token y pulsa **Comprobar ahora**.
+
+La página no guarda el token. El resultado se publica en la página, que es
+pública. Telegram y su comprobación programada siguen funcionando en paralelo.

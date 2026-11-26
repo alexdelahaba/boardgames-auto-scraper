@@ -3,25 +3,14 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const { OUTPUT_PATH, fetchAvailableProducts } = require('./scrape-ofertas');
+const { getProductKey, getProductsNotInReference } = require('./product-utils');
 
 const NOTIFIED_PATH = path.join(__dirname, 'notificaciones-enviadas.json');
 
-function getProductKey(product) {
-  if (!product || typeof product.url !== 'string') {
-    throw new Error('El JSON contiene un producto sin URL válida.');
-  }
-
-  const url = new URL(product.url);
-  const productId = url.pathname.match(/^\/(\d+)-/);
-  return productId ? productId[1] : url.pathname.toLowerCase().replace(/\/+$/, '');
-}
-
 function getNewProducts(currentProducts, savedProducts, notifiedKeys) {
-  const savedKeys = new Set(savedProducts.map(getProductKey));
-  return currentProducts.filter((product) => {
-    const key = getProductKey(product);
-    return !savedKeys.has(key) && !notifiedKeys.has(key);
-  });
+  return getProductsNotInReference(currentProducts, savedProducts).filter(
+    (product) => !notifiedKeys.has(getProductKey(product)),
+  );
 }
 
 async function readJsonArray(filePath, label) {
@@ -67,6 +56,25 @@ function formatProductMessage(product) {
     ? ` (-${product.discountPercent}%)`
     : '';
   return `${product.name}\nPrecio: ${product.priceEUR.toFixed(2)} €${discount}\n${product.url}`;
+}
+
+async function notifyProducts(newProducts, notifiedKeys, token, chatId) {
+  if (newProducts.length === 0) {
+    await sendTelegramMessage(
+      'Comprobación completada: no se encontraron juegos nuevos.',
+      token,
+      chatId,
+    );
+    return;
+  }
+
+  for (const product of newProducts) {
+    const key = getProductKey(product);
+    await sendTelegramMessage(formatProductMessage(product), token, chatId);
+    notifiedKeys.add(key);
+    await saveNotifiedKeys(notifiedKeys);
+    console.log(`Notificado: ${product.name}`);
+  }
 }
 
 async function sendTelegramMessage(text, token, chatId) {
@@ -118,17 +126,11 @@ async function main() {
   const currentProducts = await fetchAvailableProducts();
   const newProducts = getNewProducts(currentProducts, savedProducts, notifiedKeys);
 
+  await notifyProducts(newProducts, notifiedKeys, token, chatId);
+
   if (newProducts.length === 0) {
     console.log('No hay productos nuevos que notificar.');
     return;
-  }
-
-  for (const product of newProducts) {
-    const key = getProductKey(product);
-    await sendTelegramMessage(formatProductMessage(product), token, chatId);
-    notifiedKeys.add(key);
-    await saveNotifiedKeys(notifiedKeys);
-    console.log(`Notificado: ${product.name}`);
   }
 
   console.log(`Enviadas ${newProducts.length} notificación(es) a Telegram.`);
@@ -141,4 +143,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { getNewProducts, getProductKey, main };
+module.exports = { getNewProducts, getProductKey, main, notifyProducts };

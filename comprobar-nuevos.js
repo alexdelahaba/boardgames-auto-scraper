@@ -2,16 +2,7 @@
 
 const fs = require('node:fs/promises');
 const { OUTPUT_PATH, fetchAvailableProducts } = require('./scrape-ofertas');
-
-function getProductKey(product) {
-  if (!product || typeof product.url !== 'string') {
-    throw new Error('El JSON contiene un producto sin URL válida.');
-  }
-
-  const url = new URL(product.url);
-  const productId = url.pathname.match(/^\/(\d+)-/);
-  return productId ? productId[1] : url.pathname.toLowerCase().replace(/\/+$/, '');
-}
+const { getProductsNotInReference } = require('./product-utils');
 
 async function readSavedProducts() {
   let contents;
@@ -46,11 +37,8 @@ async function readSavedProducts() {
 
 async function main() {
   const savedProducts = await readSavedProducts();
-  const savedKeys = new Set(savedProducts.map(getProductKey));
   const currentProducts = await fetchAvailableProducts();
-  const newProducts = currentProducts.filter(
-    (product) => !savedKeys.has(getProductKey(product)),
-  );
+  const newProducts = getProductsNotInReference(currentProducts, savedProducts);
 
   if (newProducts.length === 0) {
     console.log('No hay productos nuevos disponibles respecto al JSON.');
@@ -70,7 +58,11 @@ async function main() {
   console.log('\nEl JSON de referencia no se ha modificado.');
 }
 
-main().catch((error) => {
-  console.error(`Error al comprobar las ofertas: ${error.message}`);
-  process.exitCode = 1;
-});
+if (require.main === module) {
+  main().catch((error) => {
+    console.error(`Error al comprobar las ofertas: ${error.message}`);
+    process.exitCode = 1;
+  });
+}
+
+module.exports = { getProductsNotInReference };

@@ -1,6 +1,12 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { getNewProducts, getProductKey, main } = require('./notificar-telegram');
+const {
+  getNewProducts,
+  getProductKey,
+  main,
+  notifyProducts,
+} = require('./notificar-telegram');
+const { getProductsNotInReference } = require('./product-utils');
 
 test('obtiene el ID de producto de la URL y usa la ruta como alternativa', () => {
   assert.equal(
@@ -22,6 +28,37 @@ test('excluye productos guardados y productos ya notificados', () => {
   ];
 
   assert.deepEqual(getNewProducts(current, saved, new Set(['20'])), [current[2]]);
+});
+
+test('compara ofertas actuales con el historial de referencia por ID', () => {
+  const saved = [{ url: 'https://tienda.malditogames.com/10-antiguo.html' }];
+  const current = [
+    { name: 'Antiguo', url: 'https://tienda.malditogames.com/10-cambiado.html' },
+    { name: 'Nuevo', url: 'https://tienda.malditogames.com/20-nuevo.html' },
+  ];
+
+  assert.deepEqual(getProductsNotInReference(current, saved), [current[1]]);
+});
+
+test('avisa por Telegram cuando no hay juegos nuevos', async () => {
+  const originalFetch = global.fetch;
+  let request;
+  global.fetch = async (url, options) => {
+    request = { url, options };
+    return { ok: true, status: 200, json: async () => ({ ok: true }) };
+  };
+
+  try {
+    await notifyProducts([], new Set(), 'test-token', '12345');
+    assert.match(request.url, /\/bottest-token\/sendMessage$/);
+    assert.deepEqual(JSON.parse(request.options.body), {
+      chat_id: '12345',
+      text: 'Comprobación completada: no se encontraron juegos nuevos.',
+      disable_web_page_preview: false,
+    });
+  } finally {
+    global.fetch = originalFetch;
+  }
 });
 
 test('el modo de prueba envía un mensaje sin consultar ofertas', async () => {

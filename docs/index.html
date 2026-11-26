@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; connect-src 'self' https://api.github.com; img-src 'self'; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'"
+    >
+    <title>Novedades de ofertas</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <main class="panel">
+      <header>
+        <p class="eyebrow">Maldito Games</p>
+        <h1>Comprobar ofertas nuevas</h1>
+        <p class="intro">
+          Lanza una comprobación y compara las ofertas disponibles con el
+          historial de referencia del repositorio.
+        </p>
+      </header>
+
+      <form id="check-form">
+        <label for="github-token">Fine-grained Personal Access Token</label>
+        <input
+          id="github-token"
+          name="github-token"
+          type="password"
+          autocomplete="off"
+          spellcheck="false"
+          required
+        >
+        <p class="help">
+          Usa un token limitado a este repositorio con permiso
+          <strong>Actions: Read and write</strong>. Solo se mantiene en esta
+          pestaña durante la consulta; no se guarda.
+        </p>
+        <button id="check-button" type="submit">Comprobar ahora</button>
+      </form>
+
+      <section id="status-panel" aria-live="polite">
+        <p id="status">Introduce tu token para iniciar una consulta.</p>
+        <a
+          id="actions-link"
+          href="https://github.com/alexdelahaba/boardgames-auto-scraper/actions"
+          target="_blank"
+          rel="noopener noreferrer"
+          hidden
+        >Ver ejecución en GitHub Actions</a>
+      </section>
+
+      <section id="results" aria-labelledby="results-heading" hidden>
+        <h2 id="results-heading">Resultado</h2>
+        <p id="summary"></p>
+        <ul id="products"></ul>
+      </section>
+    </main>
+  </body>
+</html>
